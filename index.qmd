@@ -1,8 +1,26 @@
 ---
 title: "Sophie Pardehpoosh"
+image: headshot.jpeg
+toc: false
+about: 
+  template: jolla
+  image-shape: round
+  image-width: 17em
+  links:
+    - text: LinkedIn
+      href: www.linkedin.com/in/sophie-pardehpoosh-8b473b227 
+    - text: GitHub
+      href: https://github.com/spardehpoosh
+    - text: Email
+      href: mailto:spardehpoosh@ucsb.edu
 ---
 
-This is my website!
+My name is Sophie Pardehpoosh and I am a fourth-year environmental studies student at UC Santa Barbara. I am currently taking ENV 193DS in which I am building my statistical knowledge, and learning how to use R. To demonstrate my coding skills, I have made this website. 
+
+## Education
+
+University of California, Santa Barbara | Santa Barbara, CA
+BS in Environmental Studies | Sept 2022 - June 2026
 
 
 
