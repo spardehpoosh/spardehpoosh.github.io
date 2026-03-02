@@ -13,6 +13,7 @@ website:
       - about.qmd
       - projects.qmd
       - favorite_books.qmd
+      - resume.qmd
 
 format:
   html:
