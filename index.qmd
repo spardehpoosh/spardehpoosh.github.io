@@ -1,6 +1,6 @@
 ---
 title: "Sophie Pardehpoosh"
-image: headshot.jpeg
+image: photo.png
 toc: false
 about: 
   template: jolla
