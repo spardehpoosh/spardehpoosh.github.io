@@ -8,7 +8,7 @@ about:
   image-width: 17em
   links:
     - text: LinkedIn
-      href: www.linkedin.com/in/sophie-pardehpoosh-8b473b227
+      href: https://www.linkedin.com/in/sophie-pardehpoosh-8b473b227 
     - text: GitHub
       href: https://github.com/spardehpoosh
     - text: Email
