@@ -1,0 +1,24 @@
+/*-- scss:defaults --*/
+
+// Colors
+$whiteblue: #c1cfd1;
+$greyblue: #afc3c6;
+$blue: #7b989e;
+$purpleblue: #526178;
+$purple: #584b6e;
+
+
+// Base document colors
+$navbar-bg: $blue; // navbar
+$navbar-fg: $purpleblue; // navbar foreground elements
+$navbar-hl: $purple; // highlight color when hovering over navbar links
+$body-bg: $whiteblue; // page background 
+$body-color: $purpleblue; // page text 
+$footer-bg: $greyblue; // footer 
+$link-color: $purple; // hyperlinks 
+
+// Inline code
+$code-bg: $blue; // inline code background color
+$code-color: $purple; // inline code text color
+
+
