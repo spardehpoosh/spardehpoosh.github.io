@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "My Background"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Sophie Pardehpoosh",
@@ -19,5 +12,12 @@
     "title": "Sophie Pardehpoosh",
     "section": "Education",
     "text": "Education\nUniversity of California, Santa Barbara | Santa Barbara, CA BS in Environmental Studies | Sept 2022 - June 2026"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "My Background"
   }
 ]

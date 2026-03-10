@@ -27,9 +27,8 @@ website:
 
 format:
   html:
-    theme: 
-      - lux
-      - styles.scss
+    theme: lux
+    css: styles.css
     mainfont: Roboto
     toc: true
     page-layout: full
