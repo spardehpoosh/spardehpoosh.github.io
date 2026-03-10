@@ -1,0 +1,11 @@
+---
+title: "ENVS 193DS Personal Project"
+author: "Sophie Pardehpoosh"
+date: 2026-03-10
+categories: [environment, data science]
+---
+
+
+This is my personal data that I collected over winter quarter.
+
+

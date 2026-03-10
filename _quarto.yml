@@ -13,7 +13,7 @@ website:
       - text: About
         href: about.qmd
       - text: Projects
-        href: projects.qmd
+        href: blog.qmd
       - text: favorite books
         href: favorite_books.qmd
       - href: resume.pdf # open browser based pdf viewer of resume when click "Resume" tab
