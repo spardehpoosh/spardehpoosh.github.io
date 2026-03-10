@@ -7,11 +7,14 @@ about:
   image-shape: round
   image-width: 17em
   links:
-    - text: LinkedIn
+    - icon: linkedin
+      text: LinkedIn
       href: https://www.linkedin.com/in/sophie-pardehpoosh-8b473b227 
-    - text: GitHub
+    - icon: github
+      text: GitHub
       href: https://github.com/spardehpoosh
-    - text: Email
+    - icon: envelope
+      text: Email
       href: mailto:spardehpoosh@ucsb.edu
 ---
 
