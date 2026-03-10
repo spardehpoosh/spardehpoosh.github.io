@@ -24,7 +24,9 @@ website:
 
 format:
   html:
-    theme: styles.scss
+    theme: 
+      - lux
+      - styles.scss
     toc: true
     page-layout: full
 

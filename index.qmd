@@ -18,7 +18,7 @@ about:
       href: mailto:spardehpoosh@ucsb.edu
 ---
 
-My name is Sophie Pardehpoosh and I am a fourth-year environmental studies student at UC Santa Barbara. I am currently taking ENV 193DS in which I am building my statistical knowledge, and learning how to use R. To demonstrate my coding skills, I have made this website. 
+My name is Sophie Pardehpoosh and I am a fourth-year environmental studies student at UC Santa Barbara intending to graduate with my bachelors of science in June, 2026. I am currently taking ENV 193DS in which I am building my statistical knowledge, and learning how to use R. To demonstrate my coding skills, I have made this website. 
 
 ## Education
 
