@@ -13,7 +13,10 @@ website:
       - about.qmd
       - projects.qmd
       - favorite_books.qmd
-      - resume.qmd
+      - href: resume.pdf # open browser based pdf viewer of resume when click "Resume" tab
+        text: Resume
+        target: _blank # opens link in new tab
+      
 
 format:
   html:
