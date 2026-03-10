@@ -1,7 +1,7 @@
 ---
 title: "ENVS 193DS Personal Project"
 author: "Sophie Pardehpoosh"
-date: 2026-03-10
+date: 2026-03-7
 categories: [environment, data science]
 ---
 

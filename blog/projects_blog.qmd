@@ -1,7 +1,8 @@
 ---
 title: "Orca Recovery Plan"
+description: "Conservation plan for the recovery of orcash in the Salish Sea"
 author: "Sophie Pardehpoosh"
-date: 2026-03-10
+date: 2026-02-19
 categories: [environment, conservation]
 ---
 
