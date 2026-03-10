@@ -10,9 +10,12 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
-      - projects.qmd
-      - favorite_books.qmd
+      - text: About
+        href: about.qmd
+      - text: Projects
+        href: projects.qmd
+      - text: favorite books
+        href: favorite_books.qmd
       - href: resume.pdf # open browser based pdf viewer of resume when click "Resume" tab
         text: Resume
         target: _blank # opens link in new tab
