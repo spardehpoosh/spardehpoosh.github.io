@@ -26,17 +26,22 @@ $code-color: $purple; // inline code text color
 
 /*-- scss:rules --*/
 
+.bookshelf-container {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  margin-top: 50px;
+}
+
+/* shelf */
+
 .bookshelf {
   position: relative;
   display: flex;
-  justify-content: space-between;   /* spreads books across shelf */
+  justify-content: center;
   align-items: flex-end;
-
-  max-width: 900px;                 /* prevents huge empty space */
-  margin: 0 auto;                   /* centers shelf */
-
-  padding: 20px 20px;               /* makes shelf shorter */
-  gap: 10px;
+  gap: 35px;
+  padding: 40px 30px;
 
   background:
     repeating-linear-gradient(
@@ -47,14 +52,57 @@ $code-color: $purple; // inline code text color
       #9c6b42 20px
     );
 
-  border-bottom: 16px solid #6e4426;
+  border-bottom: 18px solid #6e4426;
   border-radius: 6px;
-  box-shadow: 0 8px 18px rgba(0,0,0,0.2);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 
-.book {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+/* bookends */
+
+.bookshelf::before,
+.bookshelf::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 15px;
+  height: 160px;
+  background: #6e4426;
+}
+
+.bookshelf::before {
+  left: 0;
+}
+
+.bookshelf::after {
+  right: 0;
+}
+
+/* books */
+
+.book img {
+  box-shadow: 5px 12px 18px rgba(0,0,0,0.35);
+  border-radius: 3px;
+  transition: transform 0.25s ease;
+}
+
+.book img:hover {
+  transform: translateY(-12px) rotate(-2deg);
+}
+
+/* varied heights */
+
+.book:nth-child(1) img { height: 190px; }
+.book:nth-child(2) img { height: 175px; }
+.book:nth-child(3) img { height: 200px; }
+.book:nth-child(4) img { height: 180px; }
+.book:nth-child(5) img { height: 195px; }
+.book:nth-child(6) img { height: 185px; }
+
+/* stars */
+
+.stars {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 20px;
+  color: #f4c430;
 }
