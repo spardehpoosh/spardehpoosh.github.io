@@ -1,8 +1,6 @@
 ---
-title: "Books of 2026"
+title: "2026 in Books"
 ---
-
-## Books I've Read in 2026
 
 <div class="book-shelf">
 
