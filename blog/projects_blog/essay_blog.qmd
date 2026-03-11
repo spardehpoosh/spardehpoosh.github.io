@@ -6,7 +6,9 @@ date: 2026-03-10
 categories: [Conservation, Research]
 ---
 
-Hello
+Over the summer in 2025, I was able to do an internship with the Hempel Foundation in Copenhagen, Denmark. "The Hempel Foundation is a philanthropic foundation based in Denmark, with a strong commitment to creating a brighter future for people and the planet. Rooted in the legacy of J.C. Hempel, the founder of the Hempel Group, the Foundation supports initiatives within two main focus areas: Education and Biodiversity." During my time, I was asked to research sustainable financing in Indonesia to help support decisions regarding funding and support for biodiversity conservation in Indonesia. 
+
+<iframe src="../../files/hempel_paper.pdf" width="100%" height="800px"></iframe>
 
 
 
