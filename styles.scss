@@ -24,3 +24,29 @@ $code-bg: $blue; // inline code background color
 $code-color: $purple; // inline code text color
 
 
+/*-- scss:rules --*/
+
+.book-shelf {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  overflow-x: auto;
+  padding: 30px 0;
+  border-bottom: 4px solid #444;
+}
+
+.book {
+  text-align: center;
+  min-width: 140px;
+}
+
+.book img {
+  width: 120px;
+  border-radius: 6px;
+  transition: transform 0.2s;
+}
+
+.book img:hover {
+  transform: scale(1.08);
+}
+

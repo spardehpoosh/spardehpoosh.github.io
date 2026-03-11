@@ -1,6 +1,42 @@
 ---
-title: "Favorite Books"
+title: "Books of 2026"
 ---
 
+## Books I've Read in 2026
 
+<div class="book-shelf">
 
+<div class="book">
+<a href="blog/beautiful_life_review.qmd">
+<img src="book_images/beautiful_life.png">
+</a>
+<div class="preview">
+<b>Great Big Beautiful Life – Emily Henry</b><br>
+A thoughtful and emotional story about love, identity, and personal growth.
+</div>
+<p>January 2026</p>
+</div>
+
+<div class="book">
+<a href="blog/society_review.qmd">
+<img src="book_images/society.png">
+</a>
+<div class="preview">
+<b>Letters to the Sons of Society – Shaka Senghor</b><br>
+A reflective and powerful collection of letters exploring masculinity, healing, and justice.
+</div>
+<p>February 2026</p>
+</div>
+
+<div class="book">
+<a href="blog/lover_review.qmd">
+<img src="book_images/lover.png">
+</a>
+<div class="preview">
+<b>Heart the Lover – Lily King</b><br>
+A lyrical and intimate novel about relationships, longing, and emotional connection.
+</div>
+<p>March 2026</p>
+</div>
+
+</div>
