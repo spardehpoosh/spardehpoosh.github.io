@@ -1,0 +1,12 @@
+---
+title: "ENVS 193DS Personal Data Project"
+description: "Personal data project for Envs 193DS investigating relationship between school day and reading"
+author: "Sophie Pardehpoosh"
+date: 2026-03-7
+categories: [Environment, Data Science]
+---
+
+
+This is my personal data that I collected over winter quarter.
+
+

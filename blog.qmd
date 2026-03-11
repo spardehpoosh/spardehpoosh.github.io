@@ -1,7 +1,7 @@
 ---
 title: "Personal Projects"
 listing:
-  contents: blog
+  contents: blog/projects_blog
   sort: "date desc"
   type: default
   categories: true

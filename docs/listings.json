@@ -2,12 +2,9 @@
   {
     "listing": "/blog.html",
     "items": [
-      "/blog/society_review.html",
-      "/blog/beauitiful_life_review.html",
-      "/blog/lover_review.html",
-      "/blog/essay_blog.html",
-      "/blog/personal_project_blog.html",
-      "/blog/orcas_blog.html"
+      "/blog/projects_blog/essay_blog.html",
+      "/blog/projects_blog/personal_project_blog.html",
+      "/blog/projects_blog/orcas_blog.html"
     ]
   }
 ]
