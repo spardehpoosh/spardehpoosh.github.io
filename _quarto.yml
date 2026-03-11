@@ -14,7 +14,7 @@ website:
         href: about.qmd
       - text: Projects
         href: blog.qmd
-      - text: 2026 In Books
+      - text: My Bookshelf
         href: favorite_books.qmd
       - href: resume.pdf # open browser based pdf viewer of resume when click "Resume" tab
         text: Resume

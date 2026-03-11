@@ -1,40 +1,61 @@
 ---
-title: "2026 in Books"
+title: "My Bookshelf"
 ---
 
-<div class="book-shelf">
+<div class="bookshelf-container">
+
+<!-- TOP SHELF -->
+
+<div class="bookshelf">
 
 <div class="book">
 <a href="blog/beautiful_life_review.qmd">
-<img src="book_images/beautiful_life.png">
+<img src="images/beautiful_life.png">
 </a>
-<div class="preview">
-<b>Great Big Beautiful Life – Emily Henry</b><br>
-A thoughtful and emotional story about love, identity, and personal growth.
-</div>
-<p>January 2026</p>
+<div class="stars">⭐⭐⭐⭐</div>
 </div>
 
 <div class="book">
 <a href="blog/society_review.qmd">
-<img src="book_images/society.png">
+<img src="images/society.png">
 </a>
-<div class="preview">
-<b>Letters to the Sons of Society – Shaka Senghor</b><br>
-A reflective and powerful collection of letters exploring masculinity, healing, and justice.
-</div>
-<p>February 2026</p>
+<div class="stars">⭐⭐⭐⭐⭐</div>
 </div>
 
 <div class="book">
 <a href="blog/lover_review.qmd">
-<img src="book_images/lover.png">
+<img src="images/lover.png">
 </a>
-<div class="preview">
-<b>Heart the Lover – Lily King</b><br>
-A lyrical and intimate novel about relationships, longing, and emotional connection.
+<div class="stars">⭐⭐⭐⭐⭐</div>
 </div>
-<p>March 2026</p>
+
+</div>
+
+<!-- SECOND SHELF -->
+
+<div class="bookshelf">
+
+<div class="book">
+<a href="blog/bright_creatures_review.qmd">
+<img src="images/bright_creatures.png">
+</a>
+<div class="stars">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="book">
+<a href="blog/jaguars_review.qmd">
+<img src="images/jaguars.png">
+</a>
+<div class="stars">⭐⭐⭐⭐⭐</div>
+</div>
+
+<div class="book">
+<a href="blog/martyr_review.qmd">
+<img src="images/martyr.png">
+</a>
+<div class="stars">⭐⭐⭐⭐</div>
+</div>
+
 </div>
 
 </div>
