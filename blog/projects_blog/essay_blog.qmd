@@ -1,10 +1,12 @@
 ---
-title: "College Essay"
+title: "Hempel Foundation Internship Write Up"
 author: "Sophie Pardehpoosh"
-description: "Essay written for x class"
+description: "Presenting my findings regarding sustainable financing options in Indonesia for Hempel Foundation internship"
 date: 2026-03-10
-categories: [Writing, English]
+categories: [Conservation, Research]
 ---
 
+Hello
 
-Here is a sample essay I have written
+
+

@@ -1,6 +1,6 @@
 ---
-title: "ENVS 193DS Personal Data Project"
-description: "Personal data project for Envs 193DS investigating relationship between school day and reading"
+title: "ENVS 193DS Midterm"
+description: "Midterm for Envs 193DS to demonstrate coding skills in the course"
 author: "Sophie Pardehpoosh"
 date: 2026-03-7
 categories: [Environment, Data Science]
