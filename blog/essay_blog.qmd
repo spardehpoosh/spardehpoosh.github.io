@@ -1,6 +1,7 @@
 ---
 title: "College Essay"
 author: "Sophie Pardehpoosh"
+description: "Essay written for x class"
 date: 2026-03-10
 categories: [writing, english]
 ---

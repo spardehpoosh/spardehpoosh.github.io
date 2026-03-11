@@ -2,7 +2,9 @@
   {
     "listing": "/blog.html",
     "items": [
-      "/blog/projects_blog.html"
+      "/blog/essay_blog.html",
+      "/blog/personal_project_blog.html",
+      "/blog/orcas_blog.html"
     ]
   }
 ]
