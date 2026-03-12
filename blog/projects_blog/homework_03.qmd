@@ -9,7 +9,7 @@ This homework assignment demonstrates my knowledge of statistical tests, in this
 
 Below is the full report.
 
-<iframe src="ENVS-193DS_homework-03_copy/Code/homework_03.html" width="100%" height="900px"></iframe>
+<iframe src="ENVS-193DS_homework-03_copy/Code/rendered_homework_03.html" width="100%" height="900px"></iframe>
 
 [GitHub repository](https://github.com/spardehpoosh/ENVS-193DS_homework-03.git)
 
