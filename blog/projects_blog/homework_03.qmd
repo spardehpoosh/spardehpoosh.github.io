@@ -1,0 +1,15 @@
+---
+title: "ENVS 193DS Homework 03"
+description: "Homework assignment of environmental studies 193DS made with r, quarto, and hithub"
+date: 2026-03-12
+categories: [R, data analysis]
+---
+
+This homework assignment demonstrates my knowledge of statistical tests, in this case to test the strength of relationships. Aditionally, I displayed my "personal data" that I have been collecting for the quarter in order to determine if I read more on schoo days vs non school days. Finally, I analyzed a statistical test used in a publication. 
+
+Below is the full report.
+
+<iframe src="ENVS-193DS_homework-03_copy/Code/homework_03.html" width="100%" height="900px"></iframe>
+
+[GitHub repository](https://github.com/spardehpoosh/ENVS-193DS_homework-03.git)
+
