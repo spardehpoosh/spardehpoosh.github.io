@@ -25,7 +25,7 @@
     "href": "blog.html",
     "title": "Personal Projects",
     "section": "",
-    "text": "Hempel Foundation Internship Write Up\n\n\n\nConservation\n\nResearch\n\n\n\nPresenting my findings regarding sustainable financing options in Indonesia for Hempel Foundation internship\n\n\n\n\n\nMar 10, 2026\n\n\nSophie Pardehpoosh\n\n\n\n\n\n\n\n\n\n\n\n\nHomework 3\n\n\n\n\n\n\n\n\nFeb 26, 2026\n\n\nSophie Pardehpoosh\n\n\n\n\n\n\n\n\n\n\n\n\nHomework 3\n\n\n\n\n\n\n\n\nFeb 26, 2026\n\n\nSophie Pardehpoosh\n\n\n\n\n\n\n\n\n\n\n\n\nOrca Recovery Plan\n\n\n\nEnvironment\n\nConservation\n\n\n\nConservation plan for the recovery of orcas in the Salish Sea\n\n\n\n\n\nFeb 19, 2026\n\n\nSophie Pardehpoosh\n\n\n\n\n\nNo matching items"
+    "text": "Hempel Foundation Internship Write Up\n\n\n\nConservation\n\nResearch\n\n\n\nPresenting my findings regarding sustainable financing options in Indonesia for Hempel Foundation internship\n\n\n\n\n\nMar 10, 2026\n\n\nSophie Pardehpoosh\n\n\n\n\n\n\n\n\n\n\n\n\nHomework 3\n\n\n\n\n\n\n\n\nFeb 26, 2026\n\n\nSophie Pardehpoosh\n\n\n\n\n\n\n\n\n\n\n\n\nHomework 3\n\n\n\n\n\n\n\n\nFeb 26, 2026\n\n\nSophie Pardehpoosh\n\n\n\n\n\n\n\n\n\n\n\n\nOrca Recovery Plan\n\n\n\nEnvironment\n\nConservation\n\n\n\nConservation plan for the recovery of orcas in the Salish Sea\n\n\n\n\n\nFeb 19, 2026\n\n\nSophie Pardehpoosh\n\n\n\n\n\n\n\n\n\n\n\n\nENVS 193DS Homework 03\n\n\n\nR\n\nData Analysis\n\n\n\nHomework 3 for ENVS 193 DS\n\n\n\n\n\nFeb 10, 2026\n\n\nSophie Pardehpoosh\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog/projects_blog.html",
@@ -159,5 +159,131 @@
     "title": "Homework 3",
     "section": "b. Captions",
     "text": "b. Captions\nFigure 1: There is no obvious difference in central tendancies of reading duration on school days vs non school days. Median line is shown for the reading duration on non school days (green) and school days (pink). Upper and lower quartiles are shown above and below the median respectivley. Points represent individual observations of reading duration on non school days (green) and school days (pink). Source: personal data collected by me, Sophie Pardehpoosh\nFigure 2: Reading duration was longer when start time was earlier in the day. Red points represent individual observations of reading duration vs the time that reading began. Source: personal data collected by me, Sophie Pardehpoosh"
+  },
+  {
+    "objectID": "blog/projects_blog/homework_3_blog.html",
+    "href": "blog/projects_blog/homework_3_blog.html",
+    "title": "ENVS 193DS Homework 03",
+    "section": "",
+    "text": "This homework demonstrates my knowledge of doing statistical tests to determine the strength of relationships between variables, as well as revisiting my “personal data project”. For my personal data project, I aimed to investigate whether I read more on school days vs non school days."
+  },
+  {
+    "objectID": "blog/projects_blog/ENVS-193DS_homework-03_copy/Code/homework_03.html#a.-an-apropriate-test",
+    "href": "blog/projects_blog/ENVS-193DS_homework-03_copy/Code/homework_03.html#a.-an-apropriate-test",
+    "title": "Homework 3",
+    "section": "a. An apropriate test",
+    "text": "a. An apropriate test\nTo test the strength of the relationship between salinity (mS/cm) and California pickleweed biomass (g), I would use Pearson’s correlation or Spearman’s Rank. Pearsons’ correlation is a parametric test to measure the strength of a linear relationship. In contrast, Spearman rank correlation is the non-parametric version and tests for a monotonic relationship based on ranks between variables. Pearson’s correlation requires an approximately normal distribution and continuous variables while Spearman’s rank does not have these requirements."
+  },
+  {
+    "objectID": "blog/projects_blog/ENVS-193DS_homework-03_copy/Code/homework_03.html#b.-create-visualization",
+    "href": "blog/projects_blog/ENVS-193DS_homework-03_copy/Code/homework_03.html#b.-create-visualization",
+    "title": "Homework 3",
+    "section": "b. Create visualization",
+    "text": "b. Create visualization\n\n# base layer: ggplot\nggplot(data = salinity, # using salinity data set for plot\n       aes(x = salinity_mS_cm, # x-axis predictor - soil salinity\n           y = pickleweed)) + # y-axis response - California pickleweed biomass\n  geom_point(size = 2, # changing size of individual points\n             color = \"firebrick4\") + # changing color of individual points\n  labs(x = \"Soil salinity (mS/cm)\", \n       y = \"California pickleweed biomass (g)\",\n       title = \"As soil salinity (mS/cm) increases, \n       California pickleweed biomass (g) increases\") + # adding title\n  theme_minimal() # changing theme from ggplot default"
+  },
+  {
+    "objectID": "blog/projects_blog/ENVS-193DS_homework-03_copy/Code/homework_03.html#c.-check-assumptions-and-run-the-test",
+    "href": "blog/projects_blog/ENVS-193DS_homework-03_copy/Code/homework_03.html#c.-check-assumptions-and-run-the-test",
+    "title": "Homework 3",
+    "section": "c. Check assumptions and run the test",
+    "text": "c. Check assumptions and run the test\n\nCheck assumptions for Pearson’s correlation\n\nContinous Variables\nBoth variables are assumed to be continuous by study design.\n\n\nLinear relationship between variables\nBased on the scatterplot in part 1b, there seems to be a somewhat linear relationship between soil salinity (mS/cm) and California pickleweed biomass (g).\n\n\nNormality\n\n#base layer: ggplot\nggplot(data = salinity, # starting with the clean lobsters data frame\n       aes(sample = salinity_mS_cm, # y-axis for gg plot\n           )) + \n  geom_qq_line(color = \"maroon4\") + # reference line in maroon\n  geom_qq() + # points on qqplot\n  labs(title = \"qq plot to assess normality of pickleweed biomass data\") + # adding title for qq plot\n  theme(legend.position = \"none\") # removing the legend\n\n\n\n\n\n\n\n\n\n#base layer: ggplot\nggplot(data = salinity, # starting with the clean lobsters data frame\n       aes(sample = pickleweed, # y-axis for gg plot\n           )) + \n  geom_qq_line(color = \"maroon4\") + # reference line in maroon\n  geom_qq() + # points on qqplot\n  labs(title = \"qq plot to assess normality of salinity data\") + # adding title for qq plot\n  theme(legend.position = \"none\") # removing the legend\n\n\n\n\n\n\n\n\nLooking at the qqplots, it seems as soil salinity and pickle weed biomass are approximately normally distributed because the points on both QQplot follow the straight line, especially in the middle of the line\n\n\n\nRun the test\n\ncor.test(salinity$salinity_mS_cm, salinity$pickleweed, method = \"pearson\") # Pearson's test for strength of relationship between salinity and pickleweed biomass\n\n\n    Pearson's product-moment correlation\n\ndata:  salinity$salinity_mS_cm and salinity$pickleweed\nt = 2.8979, df = 21, p-value = 0.008605\nalternative hypothesis: true correlation is not equal to 0\n95 percent confidence interval:\n 0.1568265 0.7757682\nsample estimates:\n      cor \n0.5344778"
+  },
+  {
+    "objectID": "blog/projects_blog/ENVS-193DS_homework-03_copy/Code/homework_03.html#d.-results-communication",
+    "href": "blog/projects_blog/ENVS-193DS_homework-03_copy/Code/homework_03.html#d.-results-communication",
+    "title": "Homework 3",
+    "section": "d. Results communication",
+    "text": "d. Results communication\nTo evaluate the strength of the relationship between pickleweed biomass (g) and soil salinity (mS/cm), I used a Pearson’s correlation because the scatter plot showed linear relationship between the two variables, the qqplots showed approximately normal distributions, and both variables were continuous. We found a moderate relationship between soil salinity and pickleweed biomass (Pearson’s r = 0.53, t(21) = 2.9, p = 0.009, \\(\\alpha\\) = 0.05)"
+  },
+  {
+    "objectID": "blog/projects_blog/ENVS-193DS_homework-03_copy/Code/homework_03.html#e.-test-implications",
+    "href": "blog/projects_blog/ENVS-193DS_homework-03_copy/Code/homework_03.html#e.-test-implications",
+    "title": "Homework 3",
+    "section": "e. Test implications",
+    "text": "e. Test implications\nThe pearson’s correlation test showed a moderate positive relationship between soil salinity and pickleweed biomass indicating as salinity levels increase, so does picklweed biomass. To optimize pickleweed planting success in the future, I recommend finding the optimal range of salinity for pickleweed growth as I suspect at some point, a very high salinity will no longer promote growth."
+  },
+  {
+    "objectID": "blog/projects_blog/ENVS-193DS_homework-03_copy/Code/homework_03.html#f.-double-check-your-work",
+    "href": "blog/projects_blog/ENVS-193DS_homework-03_copy/Code/homework_03.html#f.-double-check-your-work",
+    "title": "Homework 3",
+    "section": "f. Double check your work",
+    "text": "f. Double check your work\nI chose Pearsons’s correlation as the data fit the assumptions, but it would also be possible to use Spearman’s rank.\n\ncor.test(salinity$salinity_mS_cm, salinity$pickleweed, method = \"spearman\") # Spearman's test for strength of relationship between salinity and pickleweed biomass\n\n\n    Spearman's rank correlation rho\n\ndata:  salinity$salinity_mS_cm and salinity$pickleweed\nS = 824, p-value = 0.003426\nalternative hypothesis: true rho is not equal to 0\nsample estimates:\n      rho \n0.5928854 \n\n\nUsing Spearman’s rank, we also found a moderate relationship between soil salinity and pickleweed biomass (Spearman’s \\(\\rho\\) = 0.59, S = 824, P = 0.003, \\(\\alpha\\) = 0.05). Both tests would would lead us to reject the null hypothesis that there is no relationship between soil salinity and pickleweed biomass, and rather both show that there is a moderate relationship between these two variables. Pearson’s correlation (r = 0.53, p = 0.009) and Spearman’s rank (\\(\\rho\\) = 0.58, p = 0.003), both produced p-values below our significance level \\(\\alpha\\) = 0.05 so the null hypothesis would be rejected. While Pearson’s correlation assessed the linear relationship and Spearman’s rank assessed the monotomic relationship based on ranks, they both indicate that as soil salinity increases, so does pickleweed biomass."
+  },
+  {
+    "objectID": "blog/projects_blog/ENVS-193DS_homework-03_copy/Code/homework_03.html#a.-updating-your-visualizations",
+    "href": "blog/projects_blog/ENVS-193DS_homework-03_copy/Code/homework_03.html#a.-updating-your-visualizations",
+    "title": "Homework 3",
+    "section": "a. Updating your visualizations",
+    "text": "a. Updating your visualizations\n\nCleaning data\n\nreading_data_clean &lt;- reading_data |&gt; # starting with original reading data frame\n  clean_names() # cleaning the column names so only lower case letters and underscores are used\n\n\nVisualization of school day (categorical predictor variable) vs reading duration (response variable)\n\n# base layer: ggplot\nggplot(data = reading_data_clean, # starting with my data clean\n       aes(x = school_day, # school day on x axis\n           y = duration_minutes, # reading duration in minutes on y axis\n           color = school_day\n       )) +\n  geom_boxplot() + # second layer: boxplot\n  geom_jitter(height = 0, # adding horizontal jitter\n              width = 0.3) + \n   scale_color_manual(\n    values = c(\"No\" = \"seagreen4\", # coloring box and points for non school days in sea green\n               \"Yes\" = \"lightpink2\") # coloring box and points for yes school days in light pink\n  ) + \n  labs(\n    x = \"School Day\", # relabelling x-axis\n    y = \"Reading Duration (minutes)\", # relabelling y-axis\n    title = \"There is no obvious difference in reading \n    duration on school days vs non school days\")+\n  theme_minimal() + # changing the gg plot theme\n  theme(legend.position = \"none\") # removing the legend \n\n\n\n\n\n\n\n\n\n\nVisualization of start time (continuous predictor variable) vs reading duration (response variable)\n\n# base layer: ggplot\nggplot(data = reading_data_clean, # starting with my data clean\n       aes(x = start_time, # average daily temperature on the x axis\n           y = duration_minutes)) +  # reading duration on the y axis\n  geom_point(color = \"firebrick4\") + # changing the color of the points\n  labs(\n    x = \"Time when reading started\", # changing x-axis label\n    y = \"Reading Duration (minutes)\", # changing y-axis label\n    title = \"Earlier start times led to longer reading duration\" # creating a title for my plot\n  ) +\n  theme_minimal() # changing the ggplot theme to dark"
+  },
+  {
+    "objectID": "blog/projects_blog/ENVS-193DS_homework-03_copy/Code/homework_03.html#b.-captions",
+    "href": "blog/projects_blog/ENVS-193DS_homework-03_copy/Code/homework_03.html#b.-captions",
+    "title": "Homework 3",
+    "section": "b. Captions",
+    "text": "b. Captions\nFigure 1: There is no obvious difference in central tendancies of reading duration on school days vs non school days. Median line is shown for the reading duration on non school days (green) and school days (pink). Upper and lower quartiles are shown above and below the median respectivley. Points represent individual observations of reading duration on non school days (green) and school days (pink). Source: personal data collected by me, Sophie Pardehpoosh\nFigure 2: Reading duration was longer when start time was earlier in the day. Red points represent individual observations of reading duration vs the time that reading began. Source: personal data collected by me, Sophie Pardehpoosh"
+  },
+  {
+    "objectID": "blog/projects_blog/ENVS-193DS_homework-03_copy/Code/homework_03.html#a.-description-of-visualization",
+    "href": "blog/projects_blog/ENVS-193DS_homework-03_copy/Code/homework_03.html#a.-description-of-visualization",
+    "title": "Homework 3",
+    "section": "a. Description of visualization",
+    "text": "a. Description of visualization\nI am planning on drawing a bookshelf with one book for each observation I took. The height of the book will represent the reading duration for that observation, the width will represent number of assignments, and the color will represent the book/author combination of the book from that observation. The shelf will be split into two parts, one for school day, and the other for non-school day."
+  },
+  {
+    "objectID": "blog/projects_blog/ENVS-193DS_homework-03_copy/Code/homework_03.html#b.-sketch-of-visualization",
+    "href": "blog/projects_blog/ENVS-193DS_homework-03_copy/Code/homework_03.html#b.-sketch-of-visualization",
+    "title": "Homework 3",
+    "section": "b. Sketch of visualization",
+    "text": "b. Sketch of visualization\n\n\n\nAffective visualization sketch"
+  },
+  {
+    "objectID": "blog/projects_blog/ENVS-193DS_homework-03_copy/Code/homework_03.html#c.-draft-of-visualization",
+    "href": "blog/projects_blog/ENVS-193DS_homework-03_copy/Code/homework_03.html#c.-draft-of-visualization",
+    "title": "Homework 3",
+    "section": "c. Draft of visualization",
+    "text": "c. Draft of visualization\n\n\n\nAffective visualization draft"
+  },
+  {
+    "objectID": "blog/projects_blog/ENVS-193DS_homework-03_copy/Code/homework_03.html#d.-artist-statement",
+    "href": "blog/projects_blog/ENVS-193DS_homework-03_copy/Code/homework_03.html#d.-artist-statement",
+    "title": "Homework 3",
+    "section": "d. Artist statement",
+    "text": "d. Artist statement\nI am showing how much I read (in minutes) on school days vs non school days, which book I’m reading, and how many assignments I am working on that day. I found digital art influential for my effective visualization. I have noticed a rise in visual media recently, and wanted to try this to display my personal data. My visualization was made on Canva. I created this work on Canva by making one book, and copying it with different heights and width to represent each individual observation. Height of books is relative to the mean which is represented by the black line."
+  },
+  {
+    "objectID": "blog/projects_blog/ENVS-193DS_homework-03_copy/Code/homework_03.html#e.-prep-materials-to-share-in-class",
+    "href": "blog/projects_blog/ENVS-193DS_homework-03_copy/Code/homework_03.html#e.-prep-materials-to-share-in-class",
+    "title": "Homework 3",
+    "section": "e. Prep materials to share in class",
+    "text": "e. Prep materials to share in class\nGoogle Slides Presentation"
+  },
+  {
+    "objectID": "blog/projects_blog/ENVS-193DS_homework-03_copy/Code/homework_03.html#a.-revisit-and-summarize",
+    "href": "blog/projects_blog/ENVS-193DS_homework-03_copy/Code/homework_03.html#a.-revisit-and-summarize",
+    "title": "Homework 3",
+    "section": "a. Revisit and summarize",
+    "text": "a. Revisit and summarize\nANOVA or analysis of variance was applied to test the variance in monthly average catch per unit effort (CPUE) according to the taxonomic family of the most abundant fish species in the Lower Amazon region. The predictor variables were the taxonomic families, the fisheries region, the months and years of the fisheries while the response variable was catch per unit effort (CPUE) which represents fishery productivity.\n\n\n\nResults of ANOVA figure"
+  },
+  {
+    "objectID": "blog/projects_blog/ENVS-193DS_homework-03_copy/Code/homework_03.html#b.-visual-clarity",
+    "href": "blog/projects_blog/ENVS-193DS_homework-03_copy/Code/homework_03.html#b.-visual-clarity",
+    "title": "Homework 3",
+    "section": "b. Visual clarity",
+    "text": "b. Visual clarity\nThis figure illustrates the results from the ANOVA tests. The y-axis shows yearly mean catch per unit effort (CPUE). The x-axes is called the “level of factor” where each number represents a different classification of the categorical variables, including taxanomic families and years. The top graphs show rivers, and the bottom show lakes. Panel (a) are for different species, while panel (b) are for different years. This makes sense since the response variable (CPUE) is on the y-axis, and the 4 graphs show different combinations of predictor variables on the y-axis."
+  },
+  {
+    "objectID": "blog/projects_blog/ENVS-193DS_homework-03_copy/Code/homework_03.html#c.-aesthetic-clarity",
+    "href": "blog/projects_blog/ENVS-193DS_homework-03_copy/Code/homework_03.html#c.-aesthetic-clarity",
+    "title": "Homework 3",
+    "section": "c. Aesthetic clarity",
+    "text": "c. Aesthetic clarity\nThe authors did a good job at handling visual clutter. The data to ink ratio is appropriate as they took out the grid lines and just kept the tick marks along the axes. Since there are different panels for each predictor variable, there is not need for different colors or other elements which they did not include."
+  },
+  {
+    "objectID": "blog/projects_blog/ENVS-193DS_homework-03_copy/Code/homework_03.html#d.-recommendations",
+    "href": "blog/projects_blog/ENVS-193DS_homework-03_copy/Code/homework_03.html#d.-recommendations",
+    "title": "Homework 3",
+    "section": "d. Recommendations",
+    "text": "d. Recommendations\nI would change the label of the y-axis, “XA (level of factor)” because it is not obvious what that means. I would also label that for panel (a), the factor is species while for panel (b) the level is year. I would also consider including summary statistics, likes means with error bars or confidence intervals, but I believe this could add visual clutter and cause a high data to ink ratio."
   }
 ]

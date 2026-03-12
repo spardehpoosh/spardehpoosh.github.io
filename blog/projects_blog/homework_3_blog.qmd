@@ -1,0 +1,22 @@
+---
+title: "ENVS 193DS Homework 03"
+author: "Sophie Pardehpoosh"
+description: "Homework 3 for ENVS 193 DS"
+date: 2026-02-10
+categories: [R, Data Analysis]
+---
+
+This homework demonstrates my knowledge of doing statistical tests to determine the strength of relationships between variables, as well as revisiting my "personal data project". For my personal data project, I aimed to investigate whether I read more on school days vs non school days. 
+
+<iframe 
+src="../projects_blog/ENVS-193DS_homework-03_copy/code/homework_03.html"
+width="100%" 
+height="900px"
+style="border:none;">
+</iframe>
+
+
+
+
+
+
