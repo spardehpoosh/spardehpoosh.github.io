@@ -9,5 +9,5 @@ categories: [Environment, Conservation]
 For ENVS 137 at UCSB, "Conservation Planning" with Dawn Murray, we spent the quarter working on a conservation plan for a species or area of our choice. My group chose to focus on conservation of orca whales in the Salish Sea. See the full conservation plan below. 
 
 
-<iframe src="../../files/conservation_plan_draft.pdf" width="100%" height="800px"></iframe>
+<iframe src="../../files/conservation_plan.pdf" width="100%" height="800px"></iframe>
 
